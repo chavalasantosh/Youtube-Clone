@@ -1,0 +1,70 @@
+    .profilein{
+        display: inline-block;
+        margin-right:10px;
+        }
+
+    .channel-icon{
+        width:160px;
+        height:160px;
+        border-radius:50%;
+        display:inline-block;
+        }
+        
+.profile-details{
+    display:inline-block;
+    }
+    .profile-name, .profile-des, .profile-stats{
+    color:black;
+    padding-top: 10px;
+    }
+    .extra-links{
+        font-size: 15px;
+        font-weight: 550;
+    }
+    
+    .channel-icon{
+    display:block;
+    }
+    .subscribe-button{
+    color:white;
+    background-color:rgb(0, 0, 0);
+    border:1px solid rgb(0, 0, 0);
+    border-radius:30px;
+    cursor: pointer;
+    display:inline-block;
+    padding:10px;
+    margin-top: 15px;
+    }
+
+    .fields{
+        margin-top: 30px;
+    }
+    
+    .field{
+      display:inline-block;
+      padding-left:5px;
+      padding-bottom:0;
+      font-weight: 550;
+      margin-bottom:0;
+    }
+    .field:hover{
+      text-decoration:underline;
+      transition: text-decoration 1s;
+      cursor:pointer;
+      color:gray;
+    }
+    .field:active{
+      color:white;
+    }
+    .rotate-cross {
+        transform: rotate(320deg);
+        display: inline-block;
+        font-size: 24px; /* Adjust the font size as needed */
+        margin-left:20px;
+        cursor: pointer;
+    }
+
+    hr {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
